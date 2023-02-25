@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: funEnsemble
+Version: 0.0.6
+Summary: Ensemble Clustering for Functional Data
+Home-page: https://github.com/Newman251/funEnsemble
+Author: Luke Newman
+Author-email: newmanlu@tcd.ie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # funEnsemble
 
 Clustering Functional Data Using Ensemble Clustering
@@ -26,4 +40,4 @@ data_smooth, mean, principal_componenets, eigen_functions = ec.functional_data_d
 
 # Ensemble Clustering Step
 membership_matrices, labels = ec.functional_data_clustering(principal_components, K)
-```
+```# funEnsemble
