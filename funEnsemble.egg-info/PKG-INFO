@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: funEnsemble
-Version: 0.0.6
+Version: 0.1.0
 Summary: Ensemble Clustering for Functional Data
 Home-page: https://github.com/Newman251/funEnsemble
 Author: Luke Newman
@@ -40,4 +40,4 @@ data_smooth, mean, principal_componenets, eigen_functions = ec.functional_data_d
 
 # Ensemble Clustering Step
 membership_matrices, labels = ec.functional_data_clustering(principal_components, K)
-```# funEnsemble
+```
